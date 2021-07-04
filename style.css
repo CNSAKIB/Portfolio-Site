@@ -8,9 +8,12 @@ body{
 h1{
     font-size: 50px;
 }
-section{
+h2{
+    font-size: 35px;
+}
+.felixable-container{
     display: flex;
-    margin-bottom: 100px;
+    margin-bottom: 150px;
 }
 
 .half-width{
@@ -36,4 +39,29 @@ section{
     background-image: url(dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+.center-text{
+    text-align: center;
+}
+.exp-module{
+    background-image: url(exp-bg.png);
+    background-repeat: no-repeat;
+}
+.exp-item{
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 20px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 40px gray;
+}
+#programmer-xp{
+    border-left: 7px solid;
+    border-image: linear-gradient(orangered,tomato);
+    border-image-slice: 1;
+}
+#web-xp{
+    border-left: 7px solid;
+    border-image: linear-gradient(blue,cyan);
+    border-image-slice: 1; 
 }
