@@ -1,3 +1,17 @@
+nav{
+    display: flex;
+    justify-content: center;
+   padding-bottom: 100px;
+}
+nav a{
+    color: white;
+   text-decoration: none;
+    padding:5px 20px;
+    margin-left: 15px;
+    background-color: coral;
+    border: 2px solid tomato;
+    border-radius: 5px;
+}
 body{
     font-family: 'Poppins', sans-serif;
     margin: 0%;
@@ -15,6 +29,13 @@ h2{
     display: flex;
     margin-bottom: 150px;
 }
+@media (max-width: 700px) {
+    .felixable-container{
+        flex-direction: column;
+    }
+    
+}
+
 
 .half-width{
     width: 50%;
@@ -34,6 +55,8 @@ h2{
 .link-button:hover{
     background:red;
     color:yellow;
+   
+
 }
 .Top-banner{
     background-image: url(top-banner.png);
@@ -66,8 +89,17 @@ h2{
     border-image: linear-gradient(orangered,tomato);
     border-image-slice: 1;
 }
+#programmer-xp:hover{
+    transform: scale(1.2);
+    transition: transform 1s ease-in-out;
+}
+
 #web-xp{
     border-left: 7px solid;
     border-image: linear-gradient(blue,cyan);
     border-image-slice: 1; 
+}
+#web-xp:hover{
+    transform: scale(1.2);
+    transition: transform 1s ease-in-out;
 }
