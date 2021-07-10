@@ -32,6 +32,7 @@ h2{
 @media (max-width: 700px) {
     .felixable-container{
         flex-direction: column;
+        width: 90%;
     }
     
 }
