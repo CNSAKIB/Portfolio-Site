@@ -13,7 +13,7 @@ nav a{
     border-radius: 5px;
 }
 body{
-    display: flex;
+    
     font-family: 'Poppins', sans-serif;
     margin: 0%;
 }
@@ -30,13 +30,18 @@ h2{
     display: flex;
     margin-bottom: 150px;
 }
-@media (max-width: 500px) {
-    body{
+@media (max-width: 700) {
+
+    .felixable-container{
+        flex-wrap: wrap;
         flex-direction: column;
         width: 90%;
     }
-    
+    .half-width{
+        margin-top: 150px;
+    }
 }
+
 
 
 .half-width{
